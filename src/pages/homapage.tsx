@@ -2,15 +2,16 @@ import HeroSection from "@/components/hero-section";
 import HeroSectionInfo from "@/components/hero-section-info";
 import HomeAvail from "@/components/home-avail";
 import HomeSectionDownloadPage from "@/components/home-section-download";
-import Homepage from "@/pages/homapage";
-import Image from "next/image";
+import StoreLocator from "@/components/store-locator";
 
-export default function Home() {
-  return (
+export default function Homepage() {
+    return (
         <div>
-         <Homepage />
-         
-        
+        <HeroSection />
+         <HeroSectionInfo />
+         <HomeAvail />
+         <HomeSectionDownloadPage />
+         {/* <StoreLocator /> */}
         </div>
-  );
-}
+
+)}

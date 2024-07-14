@@ -1,0 +1,42 @@
+.img-slider{
+    object-fit: cover;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: block;
+    transition: translate 300ms ease-in-out;
+
+
+}
+
+.img-slider-btn{
+    display: block;
+    position: absolute;
+    color: rgb(174, 158, 158);
+    top: 0;
+    bottom: 0;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out;
+
+}
+
+.img-slider-btn:hover{
+    background-color: rgb(0,0,0, .2);
+
+}
+
+.img-slider-viewer{
+    cursor: pointer;
+    width: .5rem;
+    height: .5rem;
+
+    transition: scale 100ms ease-in-out;
+}
+
+.img-slider-viewer >*{
+    font-size: x-small;
+}
+
+.img-slider-viewer:hover{
+    scale: 1.2;
+}
