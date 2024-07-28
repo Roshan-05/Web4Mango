@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Subscribe(){
     return (
         <>
@@ -8,14 +10,15 @@ export default function Subscribe(){
           <div className="bg-white ">
             <ul className="flex flex-wrap gap-1 justify-end ">
               <li>
-                <img
+                <Image width={25} height={25}
                   className="bg-black rounded-full p-2 w-10"
                   src="playstore.svg"
                   alt="playstore"
                 />
               </li>
               <li>
-                <img
+                <Image width={25}
+                height={25}
                   className="bg-black rounded-full p-2 w-10"
                   src="apple-logo.svg"
                   alt="ios download"

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HeroSectionInfo() {
   return (
     <section
@@ -23,7 +25,7 @@ export default function HeroSectionInfo() {
           </p>
         </div>
         <div style={{ width: "60%" }}>
-          <img width={700} src="car1.jpeg" alt="product image" />
+          <Image width={700} height={700} src="/car1.jpeg" alt="product image" />
         </div>
       </div>
     </section>

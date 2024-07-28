@@ -1,6 +1,7 @@
 //feature: if the text is too long then truncate it and show "see more"
 //Implement this feature
 
+import Image from 'next/image';
 import './style.css'
 
 export default function StoreLocatorCard() {
@@ -16,7 +17,7 @@ export default function StoreLocatorCard() {
         <div className="flex flex-col justify-center items-center">
           <p className="text-lg font-bold mb-8 bg-green-400">Deepthi Super Market(KondaPur)</p>
           <p className="bg-green-400" >
-          <img className="inline" src="pin-drop-small.png" alt="image of the drop location"/>Inside Sky Lounge, Hitex Road, Shilpa Hills, Kohtaguda, hyderabad,
+          <Image width={15} height={15} className="inline" src="/pin-drop-small.png" alt="image of the drop location"/>Inside Sky Lounge, Hitex Road, Shilpa Hills, Kohtaguda, hyderabad,
             Telangana 500084
           </p>
         </div>

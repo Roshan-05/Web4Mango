@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function ShopsLandingPage() {
@@ -7,7 +8,7 @@ export default function ShopsLandingPage() {
 
   useEffect(() => {
     setTranslate(true);
-  });
+  }, []);
 
   return (
     <section
@@ -34,9 +35,9 @@ export default function ShopsLandingPage() {
         <div className="relative" style={{ width: "40%" }}>
           <div className="bg-gray-700 flex justify-center items-center  ">
 
-          <img className={`absolute  ${
+          <Image height={550} className={`absolute  ${
               translate ? `opacity-100 ` : `translate-x-[400px] opacity-0`
-            } transition ease-linear duration-500`} width={550} src="car1.jpeg" alt="product image" />
+            } transition ease-linear duration-500`} width={550} src="/car1.jpeg" alt="product image" />
           </div>
         </div>
       </div>

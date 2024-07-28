@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HomeSectionDownloadPage() {
   return (
     <section
@@ -24,8 +26,9 @@ export default function HomeSectionDownloadPage() {
           <div>
           <ul className="flex flex-wrap gap-3  ">
               <div className="bg-black rounded-3xl px-2 flex justify-center items-center h-10">
-                <img
-               
+                <Image
+                  width={20}
+                  height={20}
                   className="px-2 w-10"
                   src="playstore.svg"
                   alt="playstore"
@@ -33,9 +36,11 @@ export default function HomeSectionDownloadPage() {
                 <span className="text-white">Google Play</span>
               </div>
               <div className="bg-black rounded-3xl px-2 flex justify-center items-center">
-                <img
+                <Image
+                  width={20}
+                  height={20}
                   className=" px-2 w-10"
-                  src="apple-logo.svg"
+                  src="/apple-logo.svg"
                   alt="ios download"
                 />
                  <span className="text-white">Apple Store</span>
@@ -44,7 +49,9 @@ export default function HomeSectionDownloadPage() {
           </div>
         </div>
         <div style={{ width: "60%" }}>
-          <img width={700} src="car1.jpeg" alt="product image" />
+          <Image
+                  
+                  height={20} width={700} src="/car1.jpeg" alt="product image" />
         </div>
       </div>
     </section>

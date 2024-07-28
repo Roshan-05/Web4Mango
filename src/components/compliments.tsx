@@ -18,7 +18,7 @@ export default function Compliments(){
 Creamy Compliments 
                 </p>
                 <p className="text-line font-semibold">
-We're proud of our product, and we're really excited when they get a feedback from the customers.
+We&apos;re proud of our product, and we&apos;re really excited when they get a feedback from the customers.
                 </p>
             </div>
             <div className="h-[32rem] pt-12 bg-red-500">

@@ -5,6 +5,7 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import CircleOutlinedIcon from '@mui/icons-material/CircleOutlined';
 import CircleIcon from '@mui/icons-material/Circle';
+import Image from "next/image";
 
 
 type ImageProps = {
@@ -32,7 +33,7 @@ export default function ImageSlider({ Images }: ImageProps) {
     
       <div className="bg-gray-600 w-full h-full flex overflow-hidden">
        {Images.map(({url, alt}, index)=>(
-        <img key={index} className="img-slider " width={700} height={600} src={url} alt={alt} style={{translate: `${-100 * imageIndex}%`}}/>
+        <Image key={index} className="img-slider " width={700} height={600} src={url} alt={alt} style={{translate: `${-100 * imageIndex}%`}}/>
        ))}
       </div>
       <button onClick={prevImage} className="left-0 img-slider-btn ">

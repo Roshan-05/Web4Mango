@@ -3,6 +3,7 @@
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import Image from 'next/image';
 
 
 type ImageProps = {
@@ -29,8 +30,11 @@ export default function Carousel(props:ImageProps){
         <Slider {...settings} >
             {
                 props.Images.map(({url, alt})=>(
-                    <img key={url} className='px-3 items-center justify-center my-auto' style={{width: props.width, objectFit:'cover'}}
-                    src={url} alt={alt} />
+                    <Image key={url} className='px-3 items-center justify-center my-auto' 
+                    width={props.width}
+                    height={props.width}
+                    style={{ objectFit:'cover'}}
+                    src={`/${url}`} alt={alt} />
                 ))
             }
 

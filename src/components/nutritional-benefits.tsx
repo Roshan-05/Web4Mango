@@ -1,3 +1,4 @@
+import Image from "next/image";
 import NutritionalBenefitsValues from "./nutritional-benefits-value";
 import Subscribe from "./subscribe";
 
@@ -14,7 +15,7 @@ export default function NutritionalBenefits() {
   return (
     <section className="max-w-7xl mx-auto bg-pink-600 w-full py-20 px-20 flex justify-between items-center max-h-[700px]">
       <div className="" style={{ width: "50%" }}>
-        <img className={``} width={700} src="car1.jpeg" alt="product image" />
+        <Image height={700} className={``} width={700} src="/car1.jpeg" alt="product image" />
       </div>
 
       <div
