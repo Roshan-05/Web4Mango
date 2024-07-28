@@ -1,5 +1,6 @@
 import Carousel from "./carousel";
 import ImageSlider from "./image-slider";
+import Subscribe from "./subscribe";
 
 const Images = [
   { url: "car1.jpeg", alt: "product 1" },
@@ -10,7 +11,7 @@ const Images = [
 
 export default function HeroSection() {
   return (
-    <section className="max-w-7xl mx-auto bg-slate-600 w-full py-20 px-20 flex justify-between items-center">
+    <section className="max-w-7xl mx-auto bg-slate-600 w-full py-20 px-20 flex justify-between items-center max-h-[700px]">
       <div className="" style={{ width: "60%" }}> 
         <Carousel Images={Images} width={600} slidesToShow={1}/>
       </div>
@@ -27,30 +28,9 @@ export default function HeroSection() {
           Sip the natural goodness of proteins and essentials vitamins with our
           extensively tested unadulterated milk!{" "}
         </p>
+        <Subscribe />
         
-        <div className="mt-5 flex justify-between items-center gap-3 bg-green-500">
-          <div className="text-2xl  font-bold bg-white">
-            Subscribe Now
-          </div>
-          <div className="bg-white ">
-            <ul className="flex flex-wrap gap-1 justify-end ">
-              <li>
-                <img
-                  className="bg-black rounded-full p-2 w-10"
-                  src="playstore.svg"
-                  alt="playstore"
-                />
-              </li>
-              <li>
-                <img
-                  className="bg-black rounded-full p-2 w-10"
-                  src="apple-logo.svg"
-                  alt="ios download"
-                />
-              </li>
-            </ul>
-          </div>
-        </div>
+        
       </div>
     </section>
   );
