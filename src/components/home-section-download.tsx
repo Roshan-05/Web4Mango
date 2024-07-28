@@ -1,16 +1,16 @@
 export default function HomeSectionDownloadPage() {
   return (
     <section
-      className="h-screen max-w-7xl mx-auto bg-blue-200 w-full py-20 px-16 flex justify-center items-center gap-8 "
+      className="h-screen max-w-7xl mx-auto bg-blue-100 w-full py-20 px-16 flex justify-center items-center gap-8 "
       style={{ maxHeight: 700 }}
     >
       <div className="flex justify-between items-center gap-12">
         <div
-          className="flex flex-col gap-4 bg-red-400 "
+          className="flex flex-col gap-4  "
           style={{ width: "45%" }}
         >
           <div
-            className="py-3 text-5xl lg:text-5xl font-bold bg-green-500"
+            className="py-3 text-5xl lg:text-5xl font-bold "
             style={{ lineHeight: "1.2" }}
           >
             Download App

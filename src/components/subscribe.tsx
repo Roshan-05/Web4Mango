@@ -1,7 +1,7 @@
 export default function Subscribe(){
     return (
         <>
-        <div className="mt-5 flex justify-between items-center gap-3 bg-green-500">
+        <div className="mt-5 flex justify-between items-center gap-3 ">
           <div className="text-2xl  font-bold bg-white">
             Subscribe Now
           </div>

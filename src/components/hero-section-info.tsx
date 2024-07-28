@@ -6,17 +6,17 @@ export default function HeroSectionInfo() {
     >
       <div className="flex justify-center items-center gap-8 -translate-y-10">
         <div
-          className="flex flex-col gap-4 bg-red-400 "
+          className="flex flex-col gap-4  "
           style={{ width: "45%" }}
         >
           <div
-            className="py-3 text-5xl lg:text-6xl font-bold bg-green-500"
+            className="py-3 text-5xl lg:text-6xl font-bold "
             style={{ lineHeight: "1.2" }}
           >
             Your dairy dose of happiness.
           </div>
 
-          <p className="bg-green-500 leading-relaxed font-medium text-gray-600">
+          <p className=" leading-relaxed font-medium text-gray-600">
             Our health is something that we never want to compromise on and
             Web4Mango helps you with wholesome dairy products for a balanced
             diet.

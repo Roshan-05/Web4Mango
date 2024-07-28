@@ -11,9 +11,9 @@ export default function Compliments(){
     ]
 
     return (
-        <section className="h-screen max-h-[700px] max-w-7xl mx-auto bg-yellow w-full py-14 box-border">
-            <div className="bg-red-700 text-center w-full px-96 min-w-72 py-2">
-                <p className="text-5xl font-bold bg-green-500 mb-6"
+        <section className="h-screen max-h-[700px] max-w-7xl mx-auto bg-yellow w-full py-14 box-border my-4">
+            <div className=" text-center w-full  max-w-lg mx-auto py-2">
+                <p className="text-5xl font-bold  mb-6"
             style={{ lineHeight: "1.2" }}>
 Creamy Compliments 
                 </p>
@@ -21,7 +21,7 @@ Creamy Compliments
 We're proud of our product, and we're really excited when they get a feedback from the customers.
                 </p>
             </div>
-            <div className="h-[32rem] pt-12 bg-red-500">
+            <div className="h-[32rem] pt-12 ">
 <ComplimentsCarousel feedback={compliments}/>
             </div>
 

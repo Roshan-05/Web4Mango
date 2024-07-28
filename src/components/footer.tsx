@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
     <div className="bg-yellow py-10">
-      <section className="bg-gray-500 mx-10 mb-10 p-1">
-        <div className=" bg-red-600 grid grid-cols-5 gap-5 place-items-center">
-          <div className="col-span-2 bg-slate-600 p-2">
+      <section className="mx-10 mb-10 p-1">
+        <div className="grid grid-cols-5 gap-5 place-items-center">
+          <div className="col-span-2  p-2">
             <div className="p-2">
               <p>logo</p>
             </div>
@@ -15,7 +15,7 @@ export default function Footer() {
               </p>
             </div>
           </div>
-          <div className="col-span-2 bg-slate-600">
+          <div className="col-span-2 ">
             <div>
               <nav className="">
                 <ul className="grid grid-cols-2 gap-3 font-semibold text-sm">
@@ -27,8 +27,8 @@ export default function Footer() {
               </nav>
             </div>
           </div>
-          <div className="bg-slate-600 gap-3 mr-5 p-2">
-            <p className="text-xl font-thin">Follow Us</p>
+          <div className=" gap-3 mr-5 p-2">
+            <p className="text-xl font-light">Follow Us</p>
             <div className="grid grid-cols-3 gap-5">
               <div>logo</div>
               <div>logo</div>
@@ -38,12 +38,12 @@ export default function Footer() {
         </div>
       </section>
       <section>
-        <div className="bg-red-400 py-3 my-3 ">
+        <div className=" py-3 my-3 ">
 
         <div className="border-2 border-line  "></div>
         </div>
       </section >
-      <section className="bg-gray-500 mx-10 mt-10 p-1 text-xs flex justify-between">
+      <section className=" mx-10 mt-10 p-1 text-xs flex justify-between">
         <div>
           <div>@2024 Web4Mango All rights reserved</div>
         </div>

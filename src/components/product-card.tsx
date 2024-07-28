@@ -15,7 +15,7 @@ export default function ProductCard() {
   }
 
   return (
-    <div className="bg-red-300 flex flex-col gap-2 p-2 rounded-lg shadow-md max-w-80 m-40">
+    <div className=" flex flex-col gap-2 p-2 rounded-lg shadow-md max-w-80 m-40">
       <div className=" relative group overflow-y-hidden ">
         <Image
           src="/car1.jpeg"
@@ -41,7 +41,7 @@ export default function ProductCard() {
       {/* cart and add options when the mouse hovers on the image */}
 
 
-      <div className="flex flex-col justify-between items-center bg-green-500">
+      <div className="flex flex-col justify-between items-center ">
         <h3 className="text-lg font-semibold "> Product Name</h3>
         <div className="flex items-center gap-2">
           <div className="flex gap-4 ">

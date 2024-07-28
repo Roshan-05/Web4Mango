@@ -10,7 +10,7 @@ const logos = [
 export default function HomeAvail() {
   return (
     <section className="-translate-y-1/2 max-w-7xl mx-auto w-full  ">
-      <div className="w-1/3 mx-auto bg- flex justify-center text-2xl font-bold py-2 bg-custom-gray rounded">
+      <div className="w-1/3 mx-auto flex justify-center text-2xl font-bold py-2 bg-custom-gray rounded">
         Also available on
       </div>
       <div className=" mx-20 py-10 bg-white px-20 rounded-3xl shadow-2xl">

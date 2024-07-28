@@ -3,12 +3,12 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="bg-green-400 max-w-[90rem] mx-auto">
-      <div className=" px-10 py-1 flex justify-between relative bg-gray-500">
+    <div className="bg-white max-w-[90rem] mx-auto">
+      <div className=" px-10 py-1 flex justify-between relative ">
         <div className="absolute left-1/2 translate-y-1/2">logo</div>
-        <div className="text-sm font-light">
-          <ul className="flex gap-3 bg-yellow ">
-            <li className="bg-red-500 py-4 px-4 hover:border-b-4 border-line">
+        <div className="text-sm ">
+          <ul className="flex gap-3  ">
+            <li className=" py-4 px-4 hover:border-b-4 border-line">
               <Link href="/">Home</Link>
             </li>
             <li className="py-4 px-4 hover:border-b-4 border-line"><Link href="/products">Products</Link></li>
@@ -19,21 +19,21 @@ export default function Navbar() {
           </ul>
         </div>
 
-        <div className="text-sm font-light">
-          <ul className="flex gap-3 bg-yellow ">
-            <li className="bg-red-500 py-4 px-4 hover:border-b-4 border-line">
+        <div className="text-sm ">
+          <ul className="flex gap-3  ">
+            <li className=" py-4 px-4 hover:border-b-4 border-line">
             <Link href="/we-care">We Care</Link>
             </li>
-            <li className="bg-red-500 py-4 px-4 hover:border-b-4 border-line">
+            <li className=" py-4 px-4 hover:border-b-4 border-line">
             <Link href="/about">About</Link>
             </li>
-            <li className="bg-red-500 py-4 px-4 hover:border-b-4 border-line">
+            <li className=" py-4 px-4 hover:border-b-4 border-line">
             <Link href="/practices">Best Practices</Link>
             </li>
-            <li className="bg-red-500 py-4 px-4 hover:border-b-4 border-line">
+            <li className=" py-4 px-4 hover:border-b-4 border-line">
             <Link href="/login">My Account</Link>
             </li>
-            <li className="bg-red-500 py-4 px-4 hover:border-b-4 border-line flex">
+            <li className=" py-4 px-4 hover:border-b-4 border-line flex">
               🛒
               <div className=" -translate-y-2">
                 <span
