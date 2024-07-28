@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <div className="bg-yellow py-10">
       <section className="bg-gray-500 mx-10 mb-10 p-1">
-        <div className=" bg-red-600 grid grid-cols-5 gap-5 place-items-center">
+        <div className="   grid grid-cols-5 gap-5 place-items-center">
           <div className="col-span-2 bg-slate-600 p-2">
             <div className="p-2">
               <p>logo</p>
@@ -38,24 +38,21 @@ export default function Footer() {
         </div>
       </section>
       <section>
-        <div className="bg-red-400 py-3 my-3 ">
-
-        <div className="border-2 border-line  "></div>
+        <div className="  py-3 my-3 ">
+          <div className="border-2 border-line  "></div>
         </div>
-      </section >
+      </section>
       <section className="bg-gray-500 mx-10 mt-10 p-1 text-xs flex justify-between">
         <div>
           <div>@2024 Web4Mango All rights reserved</div>
         </div>
-        <div >
+        <div>
           <ul className="flex gap-2">
             <li>Terms and Conditions</li>
             <li>|</li>
             <li>Refund Policy</li>
             <li>|</li>
             <li>Privacy Policy</li>
-
-
           </ul>
         </div>
       </section>
