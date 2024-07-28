@@ -26,9 +26,9 @@ export default function ComplimentsCarousel(props: compliments) {
     <div className="px-20">
 
     <Slider {...settings}>
-      {props.feedback.map((feed) => (
+      {props.feedback.map((feed, index) => (
     
-          <ComplimentsCard feedback={feed} />
+          <ComplimentsCard key={index} feedback={feed} />
       ))}
     </Slider>
     </div>

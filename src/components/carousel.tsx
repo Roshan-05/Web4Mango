@@ -29,7 +29,7 @@ export default function Carousel(props:ImageProps){
         <Slider {...settings} >
             {
                 props.Images.map(({url, alt})=>(
-                    <img className='px-3 items-center justify-center my-auto' style={{width: props.width, objectFit:'cover'}}
+                    <img key={url} className='px-3 items-center justify-center my-auto' style={{width: props.width, objectFit:'cover'}}
                     src={url} alt={alt} />
                 ))
             }
